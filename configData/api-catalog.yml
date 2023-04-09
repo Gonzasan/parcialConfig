@@ -7,6 +7,11 @@ spring:
   mongodb:
     embedded:
       version: 4.0.2
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
   data:
     mongodb:
       database: test
